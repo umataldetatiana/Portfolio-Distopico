@@ -6,33 +6,57 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" /> >
 
     <link rel="stylesheet" href="./index.css" />
-    <title>site com movimento: Parallax resolve!S</title>
+    <title>Portfolio Distopico</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
 </head>
 
 <body>
 
+
+    <div>Conteúdo da primeira seção</div>
     <div data-relative-input="true" id="scene">
-        <!-- data-relative-input="true" - especifica que a entrada será relativa à posição 
-            do mouse do usuário. id="scene" - define um identificador exclusivo para o elemento div,
-            que pode ser usado para aplicar estilos ou referências em JavaScript. -->
+
         <div data-depth="0.2" data-scalar-y="10" data-scalar-x="25">
-            <!-- data-depth="0.2" - define a profundidade do elemento div em relação à cena. Isso determina como o
-            elemento será afetado pelo movimento do mouse do usuário.
-            data-scalar-y="10" - define o quanto o eixo Y será escalado em relação ao movimento do mouse.
-            data-scalar-x="25" - define o quanto o eixo X será escalado em relação ao movimento do mouse.
-            Esses atributos de dados especificam como o elemento div será afetado pelo movimento do mouse. 
-            A profundidade determina a intensidade do efeito, enquanto os valores de scalarX e scalarY determinam
-            a direção e a intensidade do movimento.S -->
+
             <h2> essa e a primeira camada</h2>
 
         </div>
         <div data-depth="0.6">
-            <!-- data-depth="0.6" - define a profundidade do elemento div em relação à cena. 
-                Isso determina como o elemento será afetado pelo movimento do mouse do usuário.
-                Esse atributo de dados especifica que o elemento div terá uma profundidade de 0.6 em 
-                relação à cena. Isso significa que ele será afetado pelo movimento do mouse com uma intensidade 
-                relativamente alta. Quanto maior o valor de data-depth, maior será a intensidade do efeito de 
-                paralaxe no elemento. -->
+
+            <h2> essa e a segunda camada</h2>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <div>Conteúdo da segunda seção</div>
+    <div data-relative-input="true" id="scene">
+
+        <div data-depth="0.2" data-scalar-y="10" data-scalar-x="25">
+
+            <h2> essa e a primeira camada</h2>
+
+        </div>
+        <div data-depth="0.6">
+
+            <h2> essa e a segunda camada</h2>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+
+    <div>Conteúdo da terceira seção</div>
+    <div data-relative-input="true" id="scene">
+
+        <div data-depth="0.2" data-scalar-y="10" data-scalar-x="25">
+
+            <h2> essa e a primeira camada</h2>
+
+        </div>
+        <div data-depth="0.6">
+
             <h2> essa e a segunda camada</h2>
         </div>
     </div>
